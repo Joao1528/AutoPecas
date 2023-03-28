@@ -1,0 +1,28 @@
+<mat-card *ngFor="let recipe of recipes" class="recipe-card">
+    
+        <mat-card-content>
+            <div class="recipe-details">
+                <div class="recipe-detail">
+                    <h3 class="recipe-title">Código</h3>
+                    <p class="recipe-info">{{ recipe.codigo }}</p>
+                </div>
+                <div class="recipe-detail">
+                    <h3 class="recipe-title">Descrição</h3>
+                    <p class="recipe-info">{{ recipe.descricao }}</p>
+                </div>
+                <div class="recipe-detail">
+                    <h3 class="recipe-title">Quantidade Disponível</h3>
+                    <p class="recipe-info">{{ recipe.qtdeDisponivel }}</p>
+                </div>
+                <div class="recipe-detail">
+                    <h3 class="recipe-title">Capacidade Máxima</h3>
+                    <p class="recipe-info">{{ recipe.capacitadeMaxima }}</p>
+                </div>
+                <div class="recipe-detail">
+                    <h3 class="recipe-title">Quantidade Mínima</h3>
+                    <p class="recipe-info">{{ recipe.qtdeMinima }}</p>
+                </div>
+            </div>
+        </mat-card-content>
+    
+</mat-card>

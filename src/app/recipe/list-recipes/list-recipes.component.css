@@ -1,0 +1,28 @@
+.recipe-card {
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 25%;
+}
+
+.recipe-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.recipe-details {
+    padding: 16px;
+}
+
+.recipe-detail {
+    margin-bottom: 8px;
+}
+
+.recipe-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.recipe-info {
+    font-size: 16px;
+    margin: 0;
+}
